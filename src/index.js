@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 app.get("/", (req, res) => {
     res.json({
         message: "Docker CI/CD application",
-        version: "1.0.0",
+        version: "1.1.0",
     });
 });
 
